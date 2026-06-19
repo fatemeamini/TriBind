@@ -1,6 +1,22 @@
 # TriBind
 A Tri-Branch Graph Neural Network Integrating Protein Surface Features and Interaction Geometry for Binding Affinity Prediction
 
+## :ledger: Index
+
+- [About](#Note)
+- [Dataset](#Dataset)
+- [Requirements](#Requirements) 
+- [Repository Structure](#Repository-Structure)
+- [Usage](#Usage)
+  - [Data preprocessing](#1.-Data-preprocessing)
+  - [Model training](#2.-Model-training)
+  - [Model evaluation](#3.-Model-evaluation)
+  - [External prediction](#4.-External-prediction) 
+- [Reproducibility](#Reproducibility)
+- [Citation](#Citation)
+- [Acknowledgements](#Acknowledgements)
+
+
 # Note: 
 
 This repository contains the official implementation of TriBind, a tri-branch graph neural network for protein–ligand binding affinity prediction that integrates:
@@ -68,9 +84,11 @@ tqdm
 pyyaml
 joblib
 
-# Repository Structure
+###  :file_folder: Repository Structure
+
+```
+.
 TriBind
-│
 ├── data/
 │   ├── train/
 │   ├── valid/
@@ -78,25 +96,28 @@ TriBind
 │   ├── test2016/
 │   ├── test2019/
 │   └── external_test/
+│       ├── index.csv
+│       └── results.csv
 │
 ├── preprocessing/
 │
 ├── TB-PLI+Surf/
 │   ├── results/
 │   ├── model/
-│   ├── test/
+│   └── test/
 ├── DB-PL+Surf/
-│   ├── ...
+│   └── ...
 ├── TB-PLI/
-│   ├── ...
+│   └── ...
 ├── SB-PLI+Surf/
 │   └── ...
 │
 ├── scripts/
-│
 ├── results/
-│
-└── requirements.txt
+├── requirements.txt
+└── README.md
+```
+
 
 # Usage
 1. Data preprocessing
