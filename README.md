@@ -42,7 +42,7 @@ MGraphDTA: https://github.com/guaguabujianle/MGraphDTA
 
 All scoring functions (SFs) calculated in Discovery Studio v4.1 software.
 
-## :Data: Dataset
+## ⛁ Dataset
 
 All datasets used in this work are publicly available.
 
@@ -186,7 +186,7 @@ Predicted binding affinities will be saved in
 results/predictions.csv
 
 
-## :Refactoring Code: Reproducibility
+## 🔄 Reproducibility
 
 To reproduce the results reported in the paper:
 
@@ -205,4 +205,4 @@ If you find this work useful in your research, please cite
 @article{
 }
 
-## Acknowledgements
+## ✅ Acknowledgements
