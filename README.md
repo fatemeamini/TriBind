@@ -17,7 +17,7 @@ A Tri-Branch Graph Neural Network Integrating Protein Surface Features and Inter
 - [Acknowledgements](#Acknowledgements)
 
 
-## Note: 
+## :beginner: Note
 
 This repository contains the official implementation of TriBind, a tri-branch graph neural network for protein–ligand binding affinity prediction that integrates:
 
@@ -42,7 +42,7 @@ MGraphDTA: https://github.com/guaguabujianle/MGraphDTA
 
 All scoring functions (SFs) calculated in Discovery Studio v4.1 software.
 
-## Dataset:
+## :Data: Dataset
 
 All datasets used in this work are publicly available.
 
@@ -60,7 +60,7 @@ External Validation Dataset:
 
 The external α-glucosidase inhibitor dataset used in this work was collected from the published literature and prepared following the protocol described in our paper (https://www.sciencedirect.com/science/article/pii/S2405580825000822).
 
-## Requirements
+## :notebook: Requirements
 
 The implementation is developed with Python and PyTorch.
 
@@ -119,7 +119,7 @@ TriBind
 ```
 
 
-## Usage
+## :zap: Usage
 ### 1. Data preprocessing
 
 Prepare the raw protein–ligand complexes following the directory structure described above.
@@ -186,7 +186,7 @@ Predicted binding affinities will be saved in
 results/predictions.csv
 
 
-## Reproducibility
+## :Refactoring Code: Reproducibility
 
 To reproduce the results reported in the paper:
 
@@ -198,7 +198,7 @@ Test on the external α-glucosidase inhibitor dataset.
 
 Random seeds are fixed to ensure reproducibility.
 
-## Citation
+## 📎 Citation
 
 If you find this work useful in your research, please cite
 
