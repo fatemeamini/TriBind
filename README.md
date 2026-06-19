@@ -14,10 +14,10 @@ The framework is designed to learn complementary information from molecular topo
 
 Several baseline models used in this study are adapted from their original implementations. We sincerely thank the original authors for making their code publicly available.
 
-PotentialNet: https://github.com/awslabs/dgl-lifesci/blob/master/python/dgllife/model/model_zoo/potentialnet.py
-GIGN: https://github.com/guaguabujianle/GIGN/tree/main
-Pafnucy: https://github.com/realfolkcode/Pafnucy
-DeepDTA: https://github.com/hkmztrk/DeepDTA
+PotentialNet: https://github.com/awslabs/dgl-lifesci/blob/master/python/dgllife/model/model_zoo/potentialnet.py 
+GIGN: https://github.com/guaguabujianle/GIGN/tree/main 
+Pafnucy: https://github.com/realfolkcode/Pafnucy 
+DeepDTA: https://github.com/hkmztrk/DeepDTA 
 MGraphDTA: https://github.com/guaguabujianle/MGraphDTA
 
 All scoring functions (SFs) calculated in Discovery Studio v4.1 software.
