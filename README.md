@@ -67,7 +67,6 @@ The implementation is developed with Python and PyTorch.
 Example environment:
 
 python==3.10
-
 torch==2.x
 torch_geometric==2.x
 numpy
@@ -105,6 +104,8 @@ TriBind
 │   ├── results/
 │   ├── model/
 │   └── test/
+├── GIGN+Surf/
+│   └── ...
 ├── DB-PL+Surf/
 │   └── ...
 ├── TB-PLI/
@@ -166,12 +167,14 @@ To predict binding affinities for unseen protein–ligand complexes
 
 Organize data as
 
+```
 data/
 └── external_test/
       └── PDB_ID/
             ├── protein.pdb
             ├── ligand.mol2
             └── ligand.sdf
+```
 
 Run
 
