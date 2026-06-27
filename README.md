@@ -3,18 +3,17 @@ A Tri-Branch Graph Neural Network Integrating Protein Surface Features and Inter
 
 ## :ledger: Index
 
-- [About](#Note)
-- [Dataset](#-Dataset)
-- [Requirements](#Requirements) 
-- [Repository Structure](#Repository-Structure)
-- [Usage](#Usage)
-  - [Data preprocessing](#1.-Data-preprocessing)
-  - [Model training](#2.-Model-training)
-  - [Model evaluation](#3.-Model-evaluation)
-  - [External prediction](#4.-External-prediction) 
-- [Reproducibility](#Reproducibility)
-- [Citation](#Citation)
-- [Acknowledgements](#Acknowledgements)
+- [About](#beginner-note)
+- [Dataset](#-dataset)
+- [Repository Structure](#file_folder-repository-structure)
+- [Usage](#zap-usage)
+  - [Data preprocessing](#1-data-preprocessing)
+  - [Model training](#2-model-training)
+  - [Model evaluation](#3-model-evaluation)
+  - [External prediction](#4-external-prediction) 
+- [Reproducibility](#-reproducibility)
+- [Citation](#-citation)
+- [Acknowledgements](#-acknowledgements)
 
 
 ## :beginner: Note
@@ -60,47 +59,23 @@ External Validation Dataset:
 
 The external α-glucosidase inhibitor dataset used in this work was collected from the published literature and prepared following the protocol described in our paper (https://www.sciencedirect.com/science/article/pii/S2405580825000822).
 
-## :notebook: Requirements
-
-The implementation is developed with Python and PyTorch.
-
-Example environment:
-
-python==3.10
-torch==2.x
-torch_geometric==2.x
-numpy
-scipy
-pandas
-scikit-learn
-matplotlib
-networkx
-rdkit
-biopython
-biopandas
-oddt
-tqdm
-pyyaml
-joblib
 
 ##  :file_folder: Repository Structure
 
 ```
-.
 TriBind
 ├── data/
 │   ├── train/
-│   ├── valid/
-│   ├── test2013/
-│   ├── test2016/
-│   ├── test2019/
+│   ├── example/
+│   ├── test2013.csv
+│   ├── test2016.csv
+│   ├── test2019.csv
 │   └── external_test/
 │       ├── index.csv
-│       └── results.csv
+│       ├── GIGN+Surf/
+│       └── TriBind/
 │
-├── preprocessing/
-│
-├── TB-PLI+Surf/
+├── TriBind/
 │   ├── results/
 │   ├── model/
 │   └── test/
@@ -113,8 +88,8 @@ TriBind
 ├── SB-PLI+Surf/
 │   └── ...
 │
+├── visualization/
 ├── scripts/
-├── results/
 ├── requirements.txt
 └── README.md
 ```
@@ -123,25 +98,17 @@ TriBind
 ## :zap: Usage
 ### 1. Data preprocessing
 
-Prepare the raw protein–ligand complexes following the directory structure described above.
-
-Generate:
-
-Protein surface descriptors with MaSIF.
-Protein–ligand interaction graphs
-Ligand molecular graphs
-python preprocessing.py
-
-Then construct the PyTorch Geometric datasets
-
-python build_dataset.py
+Generate polygon protein surface descriptors with MaSIF:
+   install Docker & run: https://github.com/LPDI-EPFL/masif-neosurf#installation-with-docker
+   cd masif-neosurf
+   chmod +x batch_preprocess_in_docker.sh or ./preprocess_pdb.sh example/1a7x.pdb 1A7X_A -o example/output/
 
 
 ### 2. Model training
 
-Train each model
+Generate the dataset & Train each model
 
-python train.py
+python {model_name}.py
 
 Training parameters such as learning rate, batch size, hidden dimension, and random seed can be modified in the related file.
 
@@ -150,15 +117,7 @@ Training parameters such as learning rate, batch size, hidden dimension, and ran
 
 Evaluate a trained checkpoint on CASF benchmark datasets
 
-python test.py
-
-The evaluation script reports
-
-Pearson correlation (R)
-Spearman correlation (ρ)
-RMSE
-MAE
-SD
+python test_{model_name}.py
 
 
 ### 4. External prediction
@@ -172,11 +131,12 @@ data/
 └── external_test/
       └── PDB_ID/
             ├── protein.pdb
+            ├── protein_surface.ply
             ├── ligand.mol2
             └── ligand.sdf
 ```
 
-Run
+Run for GIGN+Surf:
 
 1) python preprocessing.py
 
@@ -184,8 +144,12 @@ Run
 
 3) python predict.py
 
-Predicted binding affinities will be saved in
 
+Run for TriBind:
+
+1) python structural_test_TriBind.py
+
+Predicted binding affinities will be saved in
 results/predictions.csv
 
 
@@ -194,11 +158,10 @@ results/predictions.csv
 To reproduce the results reported in the paper:
 
 Download the PDBbind datasets.
-Generate protein surface descriptors and protein-ligand complex + interaction graphs.
+Generate protein surface descriptors.
 Train the model using the provided configuration.
 Evaluate on the CASF-2013, 2016, and 2019 benchmark sets.
 Test on the external α-glucosidase inhibitor dataset.
-
 Random seeds are fixed to ensure reproducibility.
 
 ## 📎 Citation
