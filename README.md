@@ -4,7 +4,7 @@ A Tri-Branch Graph Neural Network Integrating Protein Surface Features and Inter
 ## :ledger: Index
 
 - [About](#Note)
-- [Dataset](#_⛁_Dataset)
+- [Dataset](#-Dataset)
 - [Requirements](#Requirements) 
 - [Repository Structure](#Repository-Structure)
 - [Usage](#Usage)
