@@ -1,0 +1,653 @@
+#	Created by:	Discovery Studio
+#	Creation time:	2026-05-29T13:33:25Z
+
+@<TRIPOS>MOLECULE
+50_438_501
+   49    50     0 0 0
+SMALL
+USER_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 N1          -14.416300  -34.527100   93.193700 N.am     1 SUBUNIT    0.0000
+      2 C2          -15.291800  -35.290400   92.534700 C.2      1 SUBUNIT    0.0000
+      3 C3          -14.755100  -36.534200   91.963500 C.2      1 SUBUNIT    0.0000
+      4 C4          -14.765600  -33.178600   93.590200 C.3      1 SUBUNIT    0.0000
+      5 C5          -14.084400  -32.819200   94.913500 C.3      1 SUBUNIT    0.0000
+      6 C6          -12.852100  -31.901200   94.738900 C.3      1 SUBUNIT    0.0000
+      7 O7          -11.722700  -32.537800   94.158200 O.3      1 SUBUNIT    0.0000
+      8 C8          -12.412400  -31.300600   96.084000 C.3      1 SUBUNIT    0.0000
+      9 O9          -11.384800  -30.351700   95.885700 O.3      1 SUBUNIT    0.0000
+     10 C10         -13.595000  -30.608800   96.755600 C.3      1 SUBUNIT    0.0000
+     11 O11         -13.182200  -30.073300   98.001600 O.3      1 SUBUNIT    0.0000
+     12 C12         -14.711800  -31.648900   96.933900 C.3      1 SUBUNIT    0.0000
+     13 O13         -15.073400  -32.137200   95.655800 O.3      1 SUBUNIT    0.0000
+     14 C14         -15.956200  -31.035800   97.589100 C.3      1 SUBUNIT    0.0000
+     15 O15         -17.129900  -31.771400   97.304600 O.3      1 SUBUNIT    0.0000
+     16 O16         -16.470100  -35.005300   92.372100 O.2      1 SUBUNIT    0.0000
+     17 C17         -15.577100  -37.488200   91.495400 C.2      1 SUBUNIT    0.0000
+     18 C18         -15.024100  -38.691000   90.881900 C.2      1 SUBUNIT    0.0000
+     19 C19         -13.926800  -39.339200   91.445600 C.2      1 SUBUNIT    0.0000
+     20 C20         -13.421600  -40.488200   90.852600 C.2      1 SUBUNIT    0.0000
+     21 C21         -14.017100  -40.985700   89.705600 C.2      1 SUBUNIT    0.0000
+     22 C22         -15.109400  -40.349500   89.141800 C.2      1 SUBUNIT    0.0000
+     23 C23         -15.607800  -39.189200   89.726400 C.2      1 SUBUNIT    0.0000
+     24 O24         -15.620600  -40.963000   88.004300 O.3      1 SUBUNIT    0.0000
+     25 O25         -13.527500  -42.116700   89.088400 O.3      1 SUBUNIT    0.0000
+     26 C26         -17.008500  -40.809800   87.778200 C.3      1 SUBUNIT    0.0000
+     27 H27         -13.471900  -34.845200   93.276700 H        1 SUBUNIT    0.0000
+     28 H28         -13.688700  -36.654100   91.929900 H        1 SUBUNIT    0.0000
+     29 H29         -14.428200  -32.514400   92.792000 H        1 SUBUNIT    0.0000
+     30 H30         -15.852500  -33.111200   93.657600 H        1 SUBUNIT    0.0000
+     31 H31         -13.808200  -33.732300   95.442200 H        1 SUBUNIT    0.0000
+     32 H32         -13.139400  -31.083600   94.073700 H        1 SUBUNIT    0.0000
+     33 H33         -11.366100  -33.166700   94.780400 H        1 SUBUNIT    0.0000
+     34 H34         -12.052100  -32.069000   96.776900 H        1 SUBUNIT    0.0000
+     35 H35         -11.033700  -30.107700   96.744300 H        1 SUBUNIT    0.0000
+     36 H36         -13.974800  -29.797900   96.124500 H        1 SUBUNIT    0.0000
+     37 H37         -13.932900  -29.611500   98.378200 H        1 SUBUNIT    0.0000
+     38 H38         -14.362400  -32.482200   97.546200 H        1 SUBUNIT    0.0000
+     39 H39         -15.831000  -30.945400   98.671700 H        1 SUBUNIT    0.0000
+     40 H40         -16.107800  -30.025400   97.207900 H        1 SUBUNIT    0.0000
+     41 H41         -17.885200  -31.305200   97.669300 H        1 SUBUNIT    0.0000
+     42 H42         -16.646200  -37.388600   91.569500 H        1 SUBUNIT    0.0000
+     43 H43         -13.450400  -38.952000   92.335200 H        1 SUBUNIT    0.0000
+     44 H44         -12.565900  -40.999900   91.267200 H        1 SUBUNIT    0.0000
+     45 H45         -16.455700  -38.674800   89.303300 H        1 SUBUNIT    0.0000
+     46 H46         -13.217700  -42.727500   89.758900 H        1 SUBUNIT    0.0000
+     47 H47         -17.241800  -39.800300   87.435900 H        1 SUBUNIT    0.0000
+     48 H48         -17.582900  -41.041600   88.676100 H        1 SUBUNIT    0.0000
+     49 H49         -17.325200  -41.503000   86.999400 H        1 SUBUNIT    0.0000
+@<TRIPOS>BOND
+     1    1    2 1
+     2    1    4 1
+     3    1   27 1
+     4    2    3 1
+     5    2   16 2
+     6    3   17 2
+     7    3   28 1
+     8    4   29 1
+     9    4   30 1
+    10    5    4 1
+    11   13    5 1
+    12    5   31 1
+    13    5    6 1
+    14    6    7 1
+    15    6    8 1
+    16    6   32 1
+    17    7   33 1
+    18    8    9 1
+    19    8   10 1
+    20    8   34 1
+    21    9   35 1
+    22   10   11 1
+    23   10   12 1
+    24   10   36 1
+    25   11   37 1
+    26   12   13 1
+    27   12   14 1
+    28   12   38 1
+    29   14   15 1
+    30   14   39 1
+    31   14   40 1
+    32   15   41 1
+    33   17   18 1
+    34   17   42 1
+    35   18   19 2
+    36   19   20 1
+    37   19   43 1
+    38   20   21 2
+    39   20   44 1
+    40   21   22 1
+    41   21   25 1
+    42   22   23 2
+    43   22   24 1
+    44   23   18 1
+    45   23   45 1
+    46   24   26 1
+    47   25   46 1
+    48   26   47 1
+    49   26   48 1
+    50   26   49 1
+@<SCITEGIC>MOL_PROPERTY
+Clean Energy
+SciTegic.value.DoubleValue
+0.570017
+
+@<SCITEGIC>MOL_PROPERTY
+From
+SciTegic.value.StringValue
+www.bindingDB.org
+
+@<SCITEGIC>MOL_PROPERTY
+BindingDB Reactant_set_id
+SciTegic.value.IntegerValue
+51072632
+
+@<SCITEGIC>MOL_PROPERTY
+Ligand InChI
+SciTegic.value.StringValue
+InChI=1S/C17H23NO8/c1-25-11-6-9(2-4-10(11)20)3-5-14(21)18-7-12-15(22)17(24)16(23)13(8-19)26-12/h2-6,12-13,15-17,19-20,22-24H,7-8H2,1H3,(H,18,21)/b5-3+/t12-,13+,15-,16+,17+/m0/s1
+
+@<SCITEGIC>MOL_PROPERTY
+Ligand InChI Key
+SciTegic.value.StringValue
+JLYHRVLBDKDBLM-MFYAPJFFSA-N
+
+@<SCITEGIC>MOL_PROPERTY
+BindingDB MonomerID
+SciTegic.value.IntegerValue
+50438501
+
+@<SCITEGIC>MOL_PROPERTY
+BindingDB Ligand Name
+SciTegic.value.StringValue
+CHEMBL2414821
+
+@<SCITEGIC>MOL_PROPERTY
+Target Name Assigned by Curator or DataSource
+SciTegic.value.StringValue
+&#945;-glucosidase
+
+@<SCITEGIC>MOL_PROPERTY
+IC50 (nM)
+SciTegic.value.IntegerValue
+101800
+
+@<SCITEGIC>MOL_PROPERTY
+Curation/DataSource
+SciTegic.value.StringValue
+ChEMBL
+
+@<SCITEGIC>MOL_PROPERTY
+Article DOI
+SciTegic.value.StringValue
+10.1016/j.bmc.2013.06.002
+
+@<SCITEGIC>MOL_PROPERTY
+PMID
+SciTegic.value.IntegerValue
+23810673
+
+@<SCITEGIC>MOL_PROPERTY
+Authors
+SciTegic.value.StringValue
+Bian, X; Fan, X; Ke, C; Luan, Y; Zhao, G; Zeng, A
+
+@<SCITEGIC>MOL_PROPERTY
+Institution
+SciTegic.value.StringValue
+Xi'an Jiaotong University
+
+@<SCITEGIC>MOL_PROPERTY
+Link to Ligand in BindingDB
+SciTegic.value.StringValue
+http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=50438501
+
+@<SCITEGIC>MOL_PROPERTY
+Link to Ligand-Target Pair in BindingDB
+SciTegic.value.StringValue
+http://www.bindingdb.org/jsp/dbsearch/PrimarySearch_ki.jsp?energyterm=kJ/mole&tag=r21&monomerid=50438501&enzyme=%26%23945%3B-glucosidase&column=ki&startPg=0&Increment=50&submit=Search
+
+@<SCITEGIC>MOL_PROPERTY
+PubChem CID
+SciTegic.value.IntegerValue
+71770936
+
+@<SCITEGIC>MOL_PROPERTY
+PubChem SID
+SciTegic.value.IntegerValue
+175450818
+
+@<SCITEGIC>MOL_PROPERTY
+ChEMBL ID of Ligand
+SciTegic.value.StringValue
+CHEMBL2414821
+
+@<SCITEGIC>MOL_PROPERTY
+ZINC ID of Ligand
+SciTegic.value.StringValue
+ZINC96282383
+
+@<SCITEGIC>MOL_PROPERTY
+Number of Protein Chains in Target (bigger than 1 implies a multichain complex)
+SciTegic.value.IntegerValue
+1
+
+@<SCITEGIC>MOL_PROPERTY
+BindingDB Target Chain Sequence
+SciTegic.value.StringValue
+MTISSAHPETEPKWWKEATFYQIYPASFKDSNDDGWGDMKGIASKLEYIKELGADAIWISPFYDSPQDDM
+GYDIANYEKVWPTYGTNEDCFALIEKTHKLGMKFITDLVINHCSSEHEWFKESRSSKTNPKRDWFFWRPP
+KGYDAEGKPIPPNNWKSYFGGSAWTFDEKTQEFYLRLFCSTQPDLNWENEDCRKAIYESAVGYWLDHGVD
+GFRIDVGSLYSKVVGLPDAPVVDKNSTWQSSDPYTLNGPRIHEFHQEMNQFIRNRVKDGREIMTVGEMQH
+ASDETKRLYTSASRHELSELFNFSHTDVGTSPLFRYNLVPFELKDWKIALAELFRYINGTDCWSTIYLEN
+HDQPRSITRFGDDSPKNRVISGKLLSVLLSALTGTLYVYQGQELGQINFKNWPVEKYEDVEIRNNYNAIK
+EEHGENSEEMKKFLEAIALISRDHARTPMQWSREEPNAGFSGPSAKPWFYLNDSFREGINVEDEIKDPNS
+VLNFWKEALKFRKAHKDITVYGYDFEFIDLDNKKLFSFTKKYNNKTLFAALNFSSDATDFKIPNDDSSFK
+LEFGNYPKKEVDASSRTLKPWEGRIYISE
+
+@<SCITEGIC>MOL_PROPERTY
+PDB ID(s) of Target Chain
+SciTegic.value.StringValue
+3A47,3A4A,3AJ7
+
+@<SCITEGIC>MOL_PROPERTY
+UniProt (SwissProt) Recommended Name of Target Chain
+SciTegic.value.StringValue
+Oligo-1,6-glucosidase IMA1
+
+@<SCITEGIC>MOL_PROPERTY
+UniProt (SwissProt) Entry Name of Target Chain
+SciTegic.value.StringValue
+MALX3_YEAST
+
+@<SCITEGIC>MOL_PROPERTY
+UniProt (SwissProt) Primary ID of Target Chain
+SciTegic.value.StringValue
+P53051
+
+@<SCITEGIC>MOL_PROPERTY
+UniProt (SwissProt) Secondary ID(s) of Target Chain
+SciTegic.value.StringValue
+D6VV64,Q76CZ0
+
+@<SCITEGIC>MOL_PROPERTY
+Forcefield
+SciTegic.value.StringValue
+CHARMm
+
+@<SCITEGIC>MOL_PROPERTY
+PartialChargeMethod
+SciTegic.value.StringValue
+MomanyRone
+
+@<SCITEGIC>MOL_PROPERTY
+UseResidueTemplateCharge
+SciTegic.value.StringValue
+True
+
+@<SCITEGIC>MOL_PROPERTY
+ForcefieldBase
+SciTegic.value.StringValue
+CHARMm
+
+@<SCITEGIC>MOL_PROPERTY
+ForcefieldFFML
+SciTegic.value.StringValue
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ffml SYSTEM "Ffml.dtd">
+<ffml version="1.0">
+<forcefield name="CHARMm" derivedFrom="CHARMm" base="CHARMm">
+<atomTypes>
+</atomTypes>
+<parameters>
+</parameters>
+</forcefield>
+</ffml>
+
+@<SCITEGIC>MOL_PROPERTY
+Initial Potential Energy
+SciTegic.value.DoubleValue
+97.136269
+
+@<SCITEGIC>MOL_PROPERTY
+Initial RMS Gradient
+SciTegic.value.DoubleValue
+37.302792
+
+@<SCITEGIC>MOL_PROPERTY
+Minimization Criteria
+SciTegic.value.StringValue
+CONJUG> Minimization exiting with gradient tolerance ( 0.0100000) satisfied.
+
+@<SCITEGIC>MOL_PROPERTY
+CHARMm Energy
+SciTegic.value.DoubleValue
+4.832690
+
+@<SCITEGIC>MOL_PROPERTY
+Improper Energy
+SciTegic.value.DoubleValue
+0.165990
+
+@<SCITEGIC>MOL_PROPERTY
+Hydrogen Bond Energy
+SciTegic.value.IntegerValue
+0
+
+@<SCITEGIC>MOL_PROPERTY
+Angle Energy
+SciTegic.value.DoubleValue
+6.079840
+
+@<SCITEGIC>MOL_PROPERTY
+Dihedral Energy
+SciTegic.value.DoubleValue
+29.926950
+
+@<SCITEGIC>MOL_PROPERTY
+Electrostatic Energy
+SciTegic.value.DoubleValue
+-32.209610
+
+@<SCITEGIC>MOL_PROPERTY
+Solvation Free Energy
+SciTegic.value.IntegerValue
+0
+
+@<SCITEGIC>MOL_PROPERTY
+Potential Energy
+SciTegic.value.DoubleValue
+4.832690
+
+@<SCITEGIC>MOL_PROPERTY
+Van der Waals Energy
+SciTegic.value.DoubleValue
+0.003540
+
+@<SCITEGIC>MOL_PROPERTY
+RMS Gradient
+SciTegic.value.DoubleValue
+0.009300
+
+@<SCITEGIC>MOL_PROPERTY
+Urey-Bradley Energy
+SciTegic.value.IntegerValue
+0
+
+@<SCITEGIC>MOL_PROPERTY
+Bond Energy
+SciTegic.value.DoubleValue
+0.865970
+
+@<SCITEGIC>MOL_PROPERTY
+REMARK99
+SciTegic.value.StringValue
+REMARK  99  MacroMolecule created from Mol2 file
+REMARK  99  50_438_501
+REMARK  99  PROTEIN
+REMARK  99  USER_CHARGES
+REMARK  99
+REMARK  99
+
+@<SCITEGIC>MOL_PROPERTY
+MOL_NUMBER
+SciTegic.value.IntegerValue
+9
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Version
+SciTegic.value.StringValue
+5.3.0
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Id.Protein
+SciTegic.value.StringValue
+5nn8.p|5nn8.p|mol2
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Goldscore.Fitness
+SciTegic.value.DoubleValue
+51.405998
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Goldscore.Internal.Vdw
+SciTegic.value.DoubleValue
+-10.658800
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Goldscore.Internal.Torsion
+SciTegic.value.DoubleValue
+-9.460100
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Goldscore.External.Vdw
+SciTegic.value.DoubleValue
+39.058899
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Goldscore.Internal.HBond
+SciTegic.value.DoubleValue
+0.000000
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Goldscore.External.HBond
+SciTegic.value.DoubleValue
+17.818899
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Goldscore.Hbonds
+SciTegic.value.StringValue
+donor molecule, donor type, donor heavy atom, donor atom, acceptor molecule, acceptor atom, score
+      P1  H  2967  2968       L1    25  1.00
+      P1  H  7850  7851       L1     7  0.13
+      P1  H  8972  8973       L1    11  0.28
+      L1  H     1    27       P1  8078  0.44
+      L1  H     7    33       P1  8077  0.66
+      L1  H    11    37       P1  4852  0.65
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Goldscore.Internal.Vdw.Weighted
+SciTegic.value.DoubleValue
+-10.658800
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Goldscore.Internal.Torsion.Weighted
+SciTegic.value.DoubleValue
+-9.460100
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Goldscore.External.Vdw.Weighted
+SciTegic.value.DoubleValue
+53.706001
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Goldscore.Internal.HBond.Weighted
+SciTegic.value.DoubleValue
+0.000000
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Goldscore.External.HBond.Weighted
+SciTegic.value.DoubleValue
+17.818899
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Protein.RotatedTorsions
+SciTegic.value.StringValue
+[ 6696 6695 6692 6690 ] final -169.58 input -173.03 | X-H torsion
+[ 9000 8999 8996 8994 ] final   33.57 input  -65.15 | X-H torsion
+[ 9049 9048 9045 9043 ] final -164.35 input -126.99 | X-H torsion
+[ 3034 3033 3031 3029 ] final   95.21 input  -76.09 | X-H torsion
+[ 8140 8139 8136 8134 ] final  171.23 input  -71.68 | X-H torsion
+[ 3123 3122 3121 3115 ] final  -36.26 input  -18.70 | X-H torsion
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Protein.ActiveResidues
+SciTegic.value.StringValue
+ LEU264  ARG281  ASP282  LEU283  ALA284  PRO285  THR286  PRO287  ALA289  TYR292
+ TRP376  GLY377  ASP404  LEU405  ASP406  ARG411  ILE441  ASP443  LYS479  VAL480
+ TRP481  GLY483  TRP516  ASP518  MET519  SER523  ASN524  PHE525  ILE526  ARG527
+ VAL548  GLY549  ALA554  ALA555  ARG600  TRP613  ASP616  TRP618  SER619  SER620
+ GLN623  ASP645  PHE649  LEU650  GLY651  ASN652  HIS674  SER676  LEU677  LEU678
+ SER679
+
+@<SCITEGIC>MOL_PROPERTY
+Gold.Protein.RotatedAtoms
+SciTegic.value.StringValue
+   -3.7377  -45.4976   92.4841 H   0  0  0  0  0  0  0  0  0  0  0  0  # atno 3034 bound_to 3033
+   -9.4064  -35.5136   91.8985 H   0  0  0  0  0  0  0  0  0  0  0  0  # atno 3123 bound_to 3122
+  -16.2378  -35.3106   88.6607 H   0  0  0  0  0  0  0  0  0  0  0  0  # atno 6696 bound_to 6695
+   -0.6868  -42.2071  100.1627 H   0  0  0  0  0  0  0  0  0  0  0  0  # atno 8140 bound_to 8139
+  -13.1300  -35.7653  104.0636 H   0  0  0  0  0  0  0  0  0  0  0  0  # atno 9000 bound_to 8999
+  -10.2557  -36.3215  104.8623 H   0  0  0  0  0  0  0  0  0  0  0  0  # atno 9049 bound_to 9048
+
+@<SCITEGIC>MOL_PROPERTY
+POSE_NUMBER
+SciTegic.value.IntegerValue
+1
+
+@<SCITEGIC>MOL_PROPERTY
+ServerName
+SciTegic.value.StringValue
+win-98lt25nhpms
+
+@<SCITEGIC>ATOM_PROPERTY
+Formal Charge
+SciTegic.value.StringValue
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+25 0
+26 0
+27 0
+28 0
+29 0
+30 0
+31 0
+32 0
+33 0
+34 0
+35 0
+36 0
+37 0
+38 0
+39 0
+40 0
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+
+@<SCITEGIC>ATOM_PROPERTY
+pdb_tempFactor
+SciTegic.value.DoubleValue
+1 0.00
+2 0.00
+3 0.00
+4 0.00
+5 0.00
+6 0.00
+7 0.00
+8 0.00
+9 0.00
+10 0.00
+11 0.00
+12 0.00
+13 0.00
+14 0.00
+15 0.00
+16 0.00
+17 0.00
+18 0.00
+19 0.00
+20 0.00
+21 0.00
+22 0.00
+23 0.00
+24 0.00
+25 0.00
+26 0.00
+27 0.00
+28 0.00
+29 0.00
+30 0.00
+31 0.00
+32 0.00
+33 0.00
+34 0.00
+35 0.00
+36 0.00
+37 0.00
+38 0.00
+39 0.00
+40 0.00
+41 0.00
+42 0.00
+43 0.00
+44 0.00
+45 0.00
+46 0.00
+47 0.00
+48 0.00
+49 0.00
+
+@<SCITEGIC>ATOM_PROPERTY
+pdb_occupancy
+SciTegic.value.DoubleValue
+1 1.00
+2 1.00
+3 1.00
+4 1.00
+5 1.00
+6 1.00
+7 1.00
+8 1.00
+9 1.00
+10 1.00
+11 1.00
+12 1.00
+13 1.00
+14 1.00
+15 1.00
+16 1.00
+17 1.00
+18 1.00
+19 1.00
+20 1.00
+21 1.00
+22 1.00
+23 1.00
+24 1.00
+25 1.00
+26 1.00
+27 1.00
+28 1.00
+29 1.00
+30 1.00
+31 1.00
+32 1.00
+33 1.00
+34 1.00
+35 1.00
+36 1.00
+37 1.00
+38 1.00
+39 1.00
+40 1.00
+41 1.00
+42 1.00
+43 1.00
+44 1.00
+45 1.00
+46 1.00
+47 1.00
+48 1.00
+49 1.00
+
