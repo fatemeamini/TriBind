@@ -1,6 +1,9 @@
 # TriBind
 A Tri-Branch Graph Neural Network Integrating Protein Surface Features and Interaction Geometry for Binding Affinity Prediction
 
+<img width="2809" height="1982" alt="Protein Branch (5)-1" src="https://github.com/user-attachments/assets/c2ee75dc-a0bb-4c41-b032-e59df80d131b" />
+
+
 ## :ledger: Index
 
 - [About](#beginner-note)
