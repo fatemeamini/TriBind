@@ -99,9 +99,12 @@ TriBind
 ### 1. Data preprocessing
 
 Generate polygon protein surface descriptors with MaSIF:
-   install Docker & run: https://github.com/LPDI-EPFL/masif-neosurf#installation-with-docker
-   cd masif-neosurf
-   chmod +x batch_preprocess_in_docker.sh or ./preprocess_pdb.sh example/1a7x.pdb 1A7X_A -o example/output/
+
+  1) install Docker & run: https://github.com/LPDI-EPFL/masif-neosurf#installation-with-docker
+   
+  2) cd masif-neosurf
+   
+  3) chmod +x batch_preprocess_in_docker.sh or ./preprocess_pdb.sh example/1a7x.pdb 1A7X_A -o example/output/
 
 
 ### 2. Model training
